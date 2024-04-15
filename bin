@@ -1,0 +1,1331 @@
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    opacity: 1;
+    color: #202124;
+    font-size: 1rem;
+    background-color: #e6e4e4;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+    
+    
+.header{
+    width: 100%;
+  
+    /* z-index: -1px; */
+    position: sticky;
+    top: 0px;
+    left: 0;
+    display:flex;
+    /* padding-top: 10px; */
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #040a22;
+}
+@media screen and (min-width:812px){
+    .header{
+        height: 70px;
+      
+    
+    }
+}
+.ping-image{
+    height: 40px;
+    width:150px;
+}
+.parent{
+    position: relative;
+    left: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:  #000311;;
+    border-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255) ;
+}
+/*.log{
+    position: relative;
+    left: 340px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 9px;
+    background-color:  #000311;;
+    border-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255) ;
+}
+.Sign-up{
+    
+    border: 1px solid  #fab005;
+    background-color: #fab005;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+  padding: 10px;
+}*/
+nav{
+/* padding: 20PX; */
+  /* float: right; */
+ display: flex;
+ justify-content: space-between;
+}
+
+.eng{
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 10px;
+    margin-right: 100px;
+}
+.log{
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 10px;
+    margin-right: 70px;
+}
+.sign{
+    font-size: 20px;
+    border: 1px solid  #fab005;
+    background-color:   #fab005;
+    border-radius: 100px;
+        padding: 10px;
+        margin-left: 10px;
+    
+}
+
+.options{
+    display: flex;
+}
+.started1{
+    font-size: 40px;
+    border-radius: 70px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+   justify-content: center;
+text-align: center;
+}
+
+.item{
+   background-size: cover;
+    font-size: 20px;
+    background-image: url(back.jpg);
+    padding: 30px;}
+    @media screen and (min-width:812px){
+        .item{
+           background-repeat: no-repeat;
+          
+        
+        }
+    }
+.h1 { 
+    
+    word-break: break-word;
+    opacity: 0.9;
+    font-weight: 800;
+    padding-top: 10px;
+    font-size: 50px;
+    color:#f1f3f5;
+    padding-left: 20px; 
+}
+
+h3 { 
+    
+    color:#f1f3f5;
+    padding-left: 20px; 
+}
+.button{
+    color: #f1f3f5;
+    border: 1px solid  #fab005;
+    background-color: #fab005;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.container{
+   
+    
+    width: 100%;
+    box-shadow: 0px 0px 10px  grey;
+    display: flex;
+    height: 500px;
+    margin-top: -120px;
+ margin-left: 110px;;
+    justify-content: space-around;
+    width:1200px;
+    background-color: #f8f9fa;
+}
+
+.menu{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    display: none;
+}
+
+@media screen and (max-width:400px) {
+    nav .menu2{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        background: white;
+        margin-top: 150px;
+        display: none;
+    }
+    .log,.sign,.eng{
+        margin: 0;
+        width: 90%;
+    }
+    .menu{
+        display: block;
+        margin-right: .5em;
+    }
+    nav:hover  .menu2{
+        display: flex;
+        margin-top: 190px;
+    }
+}
+
+
+.span{
+    padding-left: 1px;
+    font-size: 20px;
+display: block;
+margin-top: -1px;
+    color: #f1f3f5;
+}
+.images{
+    width:90px;
+    height:90px;
+    border-radius: 200px;     
+}
+.websites-child-font{
+    display: flex;
+   gap:30px;
+   margin:20px 60px 0px 90px;
+   
+}
+
+.menu img{
+    width: 100%;
+    height: 100%;
+}
+
+.countries{
+    margin-top: 10px;
+    padding:15px;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
+    display: flex;
+}
+
+
+.countries2{
+    gap: 20px;
+    padding:15px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
+    display: flex;
+    margin-bottom: 110px;
+}
+
+
+
+p{
+    opacity: 1;  
+}
+.imerse{
+  
+    font-weight: 600;
+    line-height: 1.125;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding-top:10px;
+    padding-left: 60px;
+    color: #f8f9fa;
+    width: 600px;
+    height:700px;
+    background-color:#000311;
+}
+@media only screen and (max-width: 600px){
+    .body{
+    flex-direction:column;
+     
+   }
+ }
+ @media only screen and (max-width: 600px){
+    body{
+    
+     background-color: rgb(230, 173, 185);
+   }
+ }
+.first-image{
+    display: flex;
+}
+.secod-span{
+    font-weight: 500;
+    left:-15px;
+   top: -20px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -150px;
+}
+.image-list1{
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 20px 0px#0f0f0f;
+    margin: 15px;
+ background-color: #ffffff;   
+    }
+ 
+ .second-image{
+    display: flex;
+ }  
+.image{
+    height: 253px;
+    width:185px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 70px;
+padding-left: 0px;
+ }
+.container-cards{
+display: flex;
+}
+
+.head-board{
+   
+    margin-top: 80px;;
+    margin-left: -30px;
+}
+.card-box{
+    margin-top: 40px;
+    margin-left: -130px;
+}
+.build{
+    padding: 20px;
+    width:400px;
+    height:440px;
+}
+.foot-image{
+    color:rgb(8, 8, 8);
+}
+.foot-image-head{
+    display: flex;
+}
+.foot-image{
+    width:80px;
+}
+.box-font{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.websites{
+display: grid;
+grid-template-columns:100px 100px 100px 100px;
+}
+.websites-child{
+    width: 40px;
+}
+.linq-box{
+    margin-top: 70px;
+    padding:0px;
+    color: #f8f9fa;
+    display: flex;
+    background-color: #000311;
+}
+.second-websites{
+    padding-left: 60px;
+}
+.content-list{
+    padding: 70px;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+.webcard{
+    width: 500px;
+    padding-top: 60px;
+    padding-left: -180px;
+}
+.board-image{
+    width: 500px;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+.heading4{
+    margin-left:-120px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 310px;
+}
+.color, .word{
+    color: #fcc419;
+}
+.independent{
+   color:  #4263eb;
+}
+.vocabulary{
+    justify-content: center;
+    margin-top: -50px;
+    padding-left: 0px;
+    display: flex;
+}
+.vocabulary-child{
+  
+    padding: 25px;
+    width: 700px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;;
+    box-shadow:0px 0px 10px 0px #868e96;
+    background-color: #f8f9fa;
+}
+.vocabulary-image{
+    width: 400px;
+    margin-left: -140px;
+}
+.comprehension{
+    z-index: -1;
+    position: relative;
+    margin-top:70px;
+    margin-left:220px;
+    justify-content: center;
+    display: flex;
+}
+.comprehension-image{
+   
+    width: 400px;
+    margin-left: -170px;
+    position: absolute;
+}
+.comprehension-child{
+    z-index: -1;
+    padding-top: 40px;
+    padding-left: 300px;
+    height: 400px;
+    width: 750px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;;
+    box-shadow:0px 0px 10px 0px #868e96;
+    background-color: #f8f9fa;   
+}
+.fluency{
+    justify-content: center;
+    margin-top: 80px;
+    padding-left: 70px;
+    display: flex;
+}
+.fluency-child{
+    border-width: ;
+    padding: 30px;
+    width: 800px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;;
+    box-shadow:0px 0px 10px 0px #868e96;
+    background-color: #f8f9fa;
+}
+.fluency-image{
+
+    width: 400px;
+    margin-left: -160px;
+}
+.started1, .started{
+    color: #f8f9fa;
+    border: 1px solid  #fab005;
+    background-color: #fab005;
+    font-size: 40px;
+    border-radius: 70px;
+    padding: 20px;
+    margin-top: 40px;
+   justify-content: center;
+text-align: center;
+}
+.footer-box{
+ padding-top: 100px;
+ background-color:#070f33;
+}
+.footer-box-child{
+margin-left:320px ;
+text-align: center;
+color:#f3b702;
+width: 50%;
+font-size: 1.6rem;
+border-top: 0.8rem solid #ffffff;
+border-bottom: 0.9rem solid #ffffff;
+}
+.started3{
+    color:#f8f9fa;
+    border: 1px solid  #fab005;
+    padding: 20px;
+    background-color: #fab005;
+    font-size: 40px;
+    border-radius: 70px;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+ 
+}
+.started4{
+    color:#f8f9fa;
+    border: 1px solid  #fab005;
+    padding: 20px;
+    background-color: #fab005;
+    font-size: 40px;
+    border-radius: 70px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+ 
+}
+.steve{
+    color:#e9a811;
+    font-size: 35px;
+    text-align: center;
+}
+.languages{
+    justify-content: center;
+   gap:20px;
+    font-size: 1.35rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #f1f3f5;
+    display: flex;
+}
+a{
+    color: #f1f3f5;
+}
+.works{
+    text-align: center;
+    color: #f8f9fa;
+}
+.numbers{
+    z-index: 1;
+    font-size: 2.5rem;
+    position: relative;
+    top:43px;
+    left:-10px;
+   justify-content: center;
+    text-align: center;
+    color: #0f0f0f;
+    height: 50px;
+    width:50px;
+    border-radius: 100px;;
+    background-color: #fab005;
+}
+.bottom2{
+   
+    color:#0a0a0a;
+    padding: 7px;
+max-width: fit-content;
+    background-color: #e9a811;
+    border-radius:100px;
+
+}
+.contents{
+    z-index: -1;
+    white-space: nowrap;
+    color: #faf7f7;
+    padding: 20px;
+    font-size: 30px;
+  
+    margin-left: 390px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 120px;
+}
+.bottom{
+
+    margin-top: -10px;
+    width:700px;
+  padding: 10px;
+ 
+}
+.second-back{
+    text-align: center;
+    margin-top: 150px;
+    height:500px;
+    background-image: url(images.jpeg);
+}
+.global{
+    box-shadow:0px 0px 20px 0px #868e96;
+    font-size: 1.4rem;
+ padding: 30px;
+    margin-top: -550px;
+    margin-left: 430px;
+    background-color: #f1f3f5;
+    max-width: max-content;
+}
+.card{
+    margin-top: -150px;
+}
+.display{
+    
+    margin-left: 200px;
+    align-items: center;
+    padding-right: 90px;
+    max-width: max-content;
+    font-size: 24px;
+    box-shadow:0px 0px 20px 0px #868e96;
+    background-color: #ffffff;
+    display:flex;
+}
+.user-image{
+   margin-left: -70px;
+}
+.user-image3{
+    margin-left: -120px;
+ }
+.footer-display{
+    margin-left: 80px;
+    align-items: center;
+    padding: 40px;
+   
+    background-color: #e4e5e7;
+}
+.caption{
+    font-weight: bold;
+    font-size: 25px;
+}
+.opinions{
+    font-size: 40px;
+    text-align: center;
+}
+.display2{
+    z-index: -1;
+    margin-top: 80px;
+    margin-left: 160px;
+   padding:30px;
+    padding-right: 90px;
+    width:700px;
+    font-size: 1.5rem;
+    margin-bottom: 70px;
+    box-shadow:0px 0px 20px 0px #868e96;
+    background-color: #ffffff;
+    display:flex;
+}
+.user-image2{
+    
+    right:330px;
+    padding-top: 50px;
+    position: absolute;
+    
+ }
+
+ .position{
+    color: #f1f3f5;
+  margin-top: 50px;
+   margin-left: 500px;
+border-width: 5px;
+  font-size: 25px;
+    border-color: #7c7c7c;
+     border-radius: 40px;
+    background-color: #041d69;
+padding: 30px;
+ }
+ .seen-images{
+    display:flex;
+ }
+ .feature-in{
+    border-bottom: 15px solid#ccd2d8;
+    padding-top:50px ;
+    text-align: center;
+    font-size: 2.5rem;
+ }
+ .mobiles{
+    font-size: 20px;
+    gap:50px;
+    padding-left: 150px;
+    border-top: 15px solid#ccd2d8;
+    display:flex;
+    background-color: #e5e7e9;
+ }
+ .item-board{
+    padding-top:20px ;
+ }
+ .mobile-ling{
+width:280px;
+ }
+ .footer-botton{
+    margin: 30px;
+    border-color: #ebb30b;
+    color: #e9e9e5;
+    line-height: 30px;
+    font-size: 40px;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: #f0a716;
+ }
+ .stored{
+    margin-left: 24px;
+ }
+ .forum-list{
+    color: #e5e7e9;
+    padding-top: 40px;
+    justify-content: space-around;
+    display:flex;
+ }
+ .app{
+    display:grid;
+    grid-template-columns: 100px;
+ }
+ .fa{
+    display: flex;
+display: block;
+font-size: 30px;
+width:40px;
+ }
+ .lists{
+    font-size: 20px;
+    background-color: #040a22;
+    color: #fff;
+ }
+ .paragraph{
+    padding-bottom: 80px;
+   text-align: center;
+    color: #e5e7e9;
+ }
+ li{
+    list-style-type: none;
+ }
+ .kufman-png{
+    margin-left: -30px;
+    width:500px;
+ }
+ .social-medias{
+    margin-left: 70px;
+   display: flex;
+    
+ }
+ .forum-image{
+   height: 50px;
+ }
+ .limited{
+    text-decoration: none;
+   color:  blue;
+ }
+ .end-tho{
+    padding:2px;
+    color:white;
+    text-align: center;
+    box-shadow: 0 -0.25rem 0.25rem rgb(0 0 0 / 30%);
+    z-index: 999;
+    margin-top:-20px ;
+    background-color: #040a22;
+ }
+ <div class="header">
+ <div>
+     <img src="download.png" alt="pingq" class="ping-image"/>
+ </div>
+ <div class="options" >
+ <div>
+     <button class="parent">Display language:EN &#10003;</button>
+
+ </div>
+
+ <div>
+     <button  class="log">Log in</button>
+ </div>
+</div>
+ <div>
+     <button class="Sign-up">Sign Up Free</button>
+ </div>
+
+</div>
+
+
+
+
+
+<body>
+  
+    <div class="header">
+        <img src="download.png" alt="pingq" class="ping-image"/>
+        <nav>
+            <div class="menu">
+                <img  src="pann.svg"/>
+            </div>
+
+            <div class="menu2">
+                <button class="eng">Display Language :EN</button> 
+                 <button class="log">Log in</button> 
+                 <button class="sign">Sign up  free</button> 
+            </div>
+
+        </nav>
+        </div>
+        <div class="item">
+ 
+    <h1 class="h1">Learn Languages from <br>Content You Love </h1> 
+    <h3>The fast, fun and effective way to learn </h3>
+    <button class="started1">Get started fo free!</button>
+
+<div class="countries">
+    <div>
+    <img  class="images"src="usaa.svg"/> 
+    <span class="span">English</span>
+    </div>
+    <div>
+     <img class="images" src="frans.svg"/>
+     <span class="span">French</span>
+    </div>
+    <div>
+    <img class="images" src="spanis.svg"/>
+     <span class="span">spanish</span>
+    </div>
+    <div>
+     <img class="images" src="pann.svg"/>
+    <span class="span">japanese</span>
+    </div>
+    <div>
+    <img class="images" src="italy.svg"/>
+     <span class="span">italy</span>
+    </div>
+    <div>
+    <img class="images" src="germany-flag-round-circle-icon.svg"/>
+    <span class= "span">Germany</span>
+    </div>
+    <div>
+    <img class="images" src="russia.svg"/>
+    <span class="span">Russian</span>
+    </div>
+    <div>
+    <img class="images" src="china.svg"/>
+    <span class="span">Chinese</span>
+    </div>
+    <div>
+    <img class="images" src="portugal.svg"/>
+    <span class="span">Portugues</span>
+    </div>
+    <div>
+    <img class="images" src="swedan.svg"/>
+    <span class="span">Swedish</span>
+    </div>
+    <div>
+    <img class="images" src="kore.svg"/>
+     <span class="span">Korean</span>
+    </div>
+    <div>
+    <img class="images" src="neth.svg"/>
+    <span class="span">Netherlands</span>
+    </div>
+   
+</div>
+    <!--------->
+<div  class="countries2">
+    <div>
+        <img class="images" src="polish.webp"/>
+        <span class="span">Polish</span>
+    </div>
+    <div>
+        <img class="images" src="greek.svg"/>
+        <span class="span">Greek</span>
+    </div>
+    <div>
+        <img class="images" src="finnish.svg"/>
+        <span class="span">Finnish</span>
+    </div>
+    <div>
+        <img class="images" src="NORWEGIAN.svg"/>
+        <span class="span">Norwegian</span>
+    </div>
+    <div>
+        <img class="images" src="czech.svg"/>
+        <span class="span">Czech</span>
+    </div>
+    <div>
+        <img class="images" src="arabic.svg"/>
+        <span class="span">Arabic</span>
+    </div>
+    <div>
+        <img class="images" src="hebrew.svg"/>
+        <span class="span">Hebrew</span>
+    </div>
+    <div>
+        <img class="images" src="turkish.svg"/>
+        <span class="span">Turkish</span>
+    </div>
+    <div>
+        <img class="images" src="china.svg"/>
+        <span class="span">Lattin</span>
+    </div>
+    <div>
+        <img class="images" src="romanua.svg"/>
+        <span class="span">Romanian</span>
+    </div>
+    <div>
+        <img class="images" src="esper.svg"/>
+        <span class="span">Esperanto</span>
+    </div>
+    <div>
+        <img class="images"  src="more.jpeg"/>
+       </div>
+</div>
+</div>
+</div>
+<!------------->
+<div class="container">
+
+<div>
+    <img class="build"   src="BUILD.png"/>
+</div>
+<div>
+    <div class="box-font">
+    <h2>Immerse yourself in your<br> new language </h2>
+    <p> Everyone learns to speak their native language. Why not use the same approach with a second language? Surround yourself with meaningful<br> input that matters to you. Start at an easy level<br> and work your way up.
+    </p>
+    <h2>Learn from your favourite content: </h2>
+</div>
+   <div class="foot-image-head">
+    <img class="foot-image" src="provider-youtube.png"/>
+    <img class="foot-image" src="provider-cnn.svg"/>
+    <img class="foot-image" src="provider-bbc.svg"/>
+</div>
+     </div> 
+    </div>
+     <!------------->
+
+<div class="head-board">
+     <div class="container-cards">
+        <div>
+            <div class="imerse">
+<div class="imerse-child">
+    <p>Immerse <br>yourself in our <br>vast library of<br> language<br> courses online <br>and on mobile.</p>
+    <button class="started">Get started for free!</button>
+</div>
+</div>
+</div>
+ <!------------->
+ <div class="card-box">
+<div class="first-image">
+    
+
+<div class="image-list1">
+    <img class="image"  src="library-topic-books.jpg"/>
+    <span class="secod-span">BOOKS</span>
+</div>
+<div class="image-list1">
+    <img class="image"  src="library-topic-podcast.jpg"/>
+    <span class="secod-span">PODCASTS</span>
+</div>
+<div class="image-list1">
+    <img class="image"  src="library-topic-news.jpg"/>
+    <span class="secod-span">NEWS</span>
+</div>
+<div class="image-list1">
+    <img class="image"  src="library-topic-business.jpg"/>
+    <span class="secod-span">BUSINESS</span>
+</div>
+</div>
+
+
+
+ <!------------->
+<div class="second-image">
+    
+
+    <div class="image-list1">
+        <img class="image"  src="library-topic-entertainment.jpg"/>
+        <span class="secod-span">ENTERTAIMEN</span>
+    </div>
+    <div class="image-list1">
+        <img class="image"  src="library-topic-sports.jpg"/>
+        <span class="secod-span">SPORTS</span>
+    </div>
+    <div class="image-list1">
+        <img class="image"  src="library-topic-technology.jpg"/>
+        <span class="secod-span">TECHNOLOGY</span>
+    </div>
+    <div class="image-list1">
+        <img class="image"  src="library-topic-science.jpg"/>
+        <span class="secod-span">SCIENCE</span>
+    </div>
+    </div>
+    <div class="second-image">
+    
+
+        <div class="image-list1">
+            <img class="image"  src="library-topic-travel.jpg"/>
+            <span class="secod-span">TRAVEL</span>
+        </div>
+        <div class="image-list1">
+            <img class="image"  src="library-topic-politics.jpg"/>
+            <span class="secod-span">POLITICS</span>
+        </div>
+        <div class="image-list1">
+            <img class="image"  src="library-topic-food.jpg"/>
+            <span class="secod-span">FOOD</span>
+        </div>
+        <div class="image-list1">
+            <img class="image"  src="library-topic-culture.jpg"/>
+            <span class="secod-span">CULTURE</span>
+        </div>
+        </div>
+     </div>
+    </div>  
+     
+</div>
+
+<!------------->
+<div class="linq-box">
+    <!------------------>
+<div class="content-list">
+  <div>
+        <h2 class="color">You will learn best<br> from content that<br> interests you</h2>
+        <p>You choose what to study. In addition <br>to our huge course library you can<br> import anything into LingQ and <br>instantly turn it into an interactive<br> lesson.</p>
+        <p>You choose what to study.<br> In addition to our huge course library <br>you can import anything into LingQ and<br> instantly turn it into<br> an interactive lesson.</p>
+ </div>
+    <div class="websites">
+        <img  src="provider-youtube.png" alt="youtube" class="websites-child"/>
+        <img src="provider-medium.png" alt="melumn" class="websites-child"/>
+        <img src="provider-wordpress (22).png" alt="wordpress" class="websites-child"/>
+        <img src="provider-cnn.svg" alt="ccn" class="websites-child"/>
+      
+    </div>
+    <div class="websites-child-font">
+    <img src="provider-lemonde.svg" alt="technology" class="websites-child"/>
+<img src="provider-techcrunch.png" alt="technology" class="websites-child"/>
+</div>
+    <div class="second-websites">
+
+<img src="lingq-first-in-independent-study.webp" alt="websiteboard"  class="board-image"/>
+</div>
+</div>
+
+<div>
+    <img src="library-providers-sample.svg" alt="webpage" class="webcard"/>
+    <div><h4 class="heading4">LingQ ranks <span class="word">first</span> in<br> <span  class="independent">independent study</span>!</h4></div>
+</div>
+</div>
+<!------------------>
+<div class="vocabulary">
+<div class="vocabulary-child">
+    <h2>Dramatically increase your vocabulary</h2>
+    <p>Learning in context is exponentially more effective <br>than drilling random words. You’ll learn tens of <br>thousands  of words.Other tools teach you<br> hundreds. Our  Spaced Repetition System <br>(SRS) helps you learn the words that matter to you most.</p>
+</div>
+
+<div>
+    <img src="feature-vocabulary.svg" alt="vocabulary" class="vocabulary-image" />
+</div>
+</div>
+<!------------------>
+<div class="comprehension">
+    <div>
+    <img src="feature-comprehension.svg" alt="feature-comprehension" class="comprehension-image"/>
+</div>
+    <div class="comprehension-child">
+        <h2>Watch your comprehension and confidence gro</h2>
+        <p>As you flood your brain with natural content and rapidly acquire words and natural phrasing, feel your comprehension skyrocket. With comprehension comes confidence and the ability to feel comfortable in any situation.</p>
+    </div>
+</div>
+<!------------------>
+<div class="fluency">
+    <div class="fluency-child">
+        <h2>Stay organized and focused all the way <br> to fluency</h2>
+        <p>Let LingQ manage all your content and track everything <br> you do. Our machine learning algorithm will help figure<br>  out the content that’s right for you. <br> LingQ learns as you learn and will be there to <br> guide you as far as you need to go.</p>
+    </div>
+    <div>
+        <img src="feature-focused.svg" alt="feature-focused" class="fluency-image"/>
+    </div>
+</div>
+<div>
+<button class="started3">Get started fo free!</button>
+</div>
+
+
+<div class="footer-box">
+   
+<div class="footer-box-child">
+   
+    <h1>THE BEST WAY TO<br>
+      
+        LEARN LANGUAGES</h1>
+</div>
+
+<h3 class="steve">Hi there, Steve here!</h3>
+
+<div class="languages">
+    <div>
+        <img class="kufman-png" src="Steve+Kaufmann.png" alt="A MAN IMAGE"/>
+    </div>
+    <div>
+    <p>I speak 20 languages and have been <br>learning languages for 55 years. There<br> has never been a system as<br> powerful as LingQ for learning languages.</p>
+   <p>Compelling content has always been<br> the key to my language learning.<br> However, it took me 45 years to learn 9<br> languages the old way, but only 10<br> years to learn 7 more on LingQ.</p>
+   <h4>— Steve Kaufmann,</h4>
+   <a href="Internet polyglot, LingQ cofounder">Internet polyglot, LingQ cofounder</a>
+    </div>
+</div>
+<button class="started3">Get started for free!</button>
+<h1 class="works">How it works</h1>
+
+<div class="contents">
+<div style="display: flex;   border-bottom: 5px solid  #e9a811;width: 600px;">
+    <div class="numbers">1</div>
+    <h4> Read & listen to content you love</h4>
+
+</div>
+    <!---------------------->
+    <div style="display: flex;   border-bottom: 5px solid  #e9a811;width: 600px;">
+        <div class="numbers">2</div>
+    <h4>Learn new words and phrases</h4>
+    </div>
+    
+    <div style="display: flex;   border-bottom: 5px solid  #e9a811;width: 600px;">
+        <div class="numbers">3</div>
+    <h4>Track your progress</h4>
+    </div>
+    <div style="display: flex;   border-bottom: 5px solid  #e9a811;width: 600px;">
+        <div class="numbers">4</div>
+    <h4> Enjoy your journey, anytime, anywhere</h4>
+    </div>
+    
+   
+</div>
+</div>
+
+<div class="card">
+<div class="second-back">
+    
+</div>
+
+<div class="global">
+    <h1>Join a community of<br> language learners</h1>
+    <p>Learning online doesn't mean learning<br> alone. At LingQ, you're<br> part of a global language learning<br> community. Join live<br> conversations or interact on our<br> Language Forums and Blogs<br>. Meaningful communication in your <br>new language makes it real and<br>real communication helps you<br> learn.</p>
+    <button class="started4">Get started fo free!</button>
+    </div>
+</div>
+<div class="footer-display">
+<h2 class="opinions">What people are saying</h2>
+<div class="display">
+    <div class="user-image">
+        <img class="user-image" src="users.png" alt="user image"/>
+    </div>
+    <div>
+        <p>"LingQ is my favourite online resource for language<br> learning. Their gigantic library in different languages<br> gives me the opportunity to build vocabulary with<br> great material that includes audio and text. There is<br> no better way to master a language."<br>
+           <strog class="caption"> — Gabriel Silva. Sao Paulo, Brazil<br>
+            Polyglot and founder of Fluent ASAP </strog></p>
+    </div>
+</div>
+
+
+
+<div class="display2">
+    <div>
+        <p>"I really want to thank LingQ so much for<br> transforming the way I learn languages. The <br>LingQ system makes reading in your target<br> language easy, efficient and effective. By<br> highlighting words and phrases, your<br> vocabulary and grammar knowledge<br> improves naturally as you read"<br>
+          <span class="caption">— Simon Haisell. London, UK<br>
+            Ethnographer and blogger </span> </p>
+    </div>
+    <div>
+        <img class="user-image2" src="users2.png" alt="user-image"/>
+    </div>
+</div>
+
+<div class="display">
+    <div>
+        <img class="user-image3" src="user3.png" alt="user image"/>
+    </div> 
+    <div>
+        <p>"I decided to sit the DELF B1 exam after a year of <br>using LingQ, but I was not expecting so much<br> success. I got 90 which was the highest among all <br>the students who took the test!"<br>
+           <span class="caption"> — Aaya Al Kawaz. Baghdad, Irak<br>
+            
+            Medical Student</span></p>
+    </div>
+</div>
+<button class="position">More testimonials</button>
+</div>
+
+<div>
+    <h2 class="feature-in">As featured in:</h2>
+    <div class="seen-images">
+        <div><img src="seen-pcmag.png" alt="image"/></div>
+        <div><img src="seen-cbcnews.png" alt="image"/></div>
+        <div><img src="seen-techcrunch.png" alt="image"/></div>
+        <div><img src="seen-huffington.png" alt="image"/></div>
+        <div><img src="seen-lifehack.png" alt="image"/></div>
+        <div><img src="seen-straight.png" alt="image"/></div>
+    </div>
+        
+        
+        <div class="seen-images">
+            <div><img src="seen-el-pais.png" alt="image"/></div>
+            <div><img src="seen-la-vanguardia.png" alt="image"/></div>
+            <div><img src="seen-cadena-ser.jpg" alt="image"/></div>
+            <div><img src="seen-onda-cero.png" alt="image"/></div>
+            <div><img src="seen-rtve.png" alt="images"/></div>
+            <div><img src="mens_health.png" alt="image"/></div>
+        </div>
+         </div>
+</div>
+
+<div class="mobiles">
+    <div>
+        <img class="mobile-ling" src="mobile-lingq.svg" alt="mobile"/>
+    </div>
+    <div class="item-board">
+        <h2>Try LingQ for free</h2>
+        <p>Download the LingQ app or signup online to start<br> learning a language today!
+        </p>
+        <button class="footer-botton">Get Started for free!</button>
+       <div class="stored">
+        <img src="mobile-appstore.svg" alt="app store"/>
+        <img src="mobile-googleplay.svg" alt="goggle"/>
+      </div>
+    </div>
+</div>
+<div class="lists">
+<div class="forum-list">
+ 
+   
+  <div>
+    <img class="forum-image" src="download.png" alt="forum image"/> 
+    <div  class="social-medias">
+   
+<div><i  class="fa fa-facebook-square" aria-hidden="true"></i></div>
+<div><i class="fa fa-instagram" aria-hidden="true"></i></div>
+<div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+<div><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+</div>
+</div>
+<div>
+    <ul>
+        <li>About</li>
+        <li>Pricing</li>
+        <li>contacts</li>
+        <li>For schools</li>
+        <li>for business</li>
+        <li>Testimonial</li>
+        <li>Gift shop</li>
+    </ul>
+</div>
+
+<div>
+    <ul>
+        <li>Forum</li>
+        <li>Blog</li>
+        <li>Be a tutor</li>
+        <li>Jobs</li>
+        <li>Proficiency test</li>
+        <li>Affilate  Program </li>
+        <li>Press Room</li>
+    </ul>
+</div>
+<div>
+    <h2>Get our App at:</h2>
+    <div class="app">
+    <img src="mobile-appstore.svg"alt='mobile'/>
+    <img src="mobile-googleplay.svg" alt="mobile"/>
+</div>
+</div>
+</div>
+<p class="paragraph">© 2002-2024 <a class="limited" href="#"> LingQ Languages Ltd.</a> All rights reserved. 200-2232 Marine Drive, West Vancouver, BC, Canada V7V 1K4
+
+    |  TOS  |  Privacy  |  Sitemap</p>
+    </div>
+    <div class="end-tho">
+        <p>We use cookies to help make LingQ better. By visiting the site, you agree to our cookie policy.</p>
+    </div>
+ 
+      
+</body>
+</html>
+<nav>
+<div><img src="download.png" alt="pingq" class="ping-image"/></div>
+
+<input type="checkbox" id="click">
+<label for="click" class="icon-btn">
+<i class="fas fa-bars"></i></label>
+
+
+<ul class="box">
+    <li><a class="the-head" href="HOME">HOME </a></li>
+    <li><a class="the-head" href="ABOUT">ABOUT</a></li>
+    <li><a class="the-head" href="ABOUT">PRICING</a></li>
+    <li><a class="the-head" href="forum">FORUM</a></li>
+    <li><a class="the-head" href="blog">Blog</a></li>
+    <li><a class="button"  href="log in">log in</a></li>
+    <li><a class="button2"  href="sign up">sign up</a></li>
+</ul>
+
+</nav> 
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    background-color: rgb(1, 1, 48);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul  {
+
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+ gap:0px;
+    display: flex;
+}
+nav ul a{
+    
+    text-decoration: none;
+}
+#click{
+    display: none;
+}
+.the-head{
+    display: none;
+}
+.icon-btn{
+    display: none;
+    color: #ffff;
+    font-size: 20px;
+}
+.button{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 100px;
+    padding: 20px 50px;
+    border: 1px solid #fff;
+}
+.button2{
+    background: #fab005;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 100px;
+    padding: 20px 50px;
+    border: 1px solid #fab005;
+}
+
+@media screen and (max-width:940px) {
+    nav ul{
+        position: fixed;
+        top:30px;
+        display: block;
+        left:-100%;
+        height:100vh;
+        width: 100%;
+        background-color:rgb(1, 1, 48);
+     text-align: center;
+    }
+    #click:checked ~ .icon-btn:before{
+        content: "\f00d";
+    }
+    #click:checked ~ ul{
+        left:-0px;
+    }
+    .the-head{
+        display: block;
+    }
+    nav ul li a{
+        display: block
+    }
+    .icon-btn{
+        display: block;
+    }
+    
+}
